@@ -1,0 +1,19 @@
+
+.navbar{
+    background-color: brown;
+    position: fixed;
+    width: 200vh;
+    z-index: 1;
+}
+#Hero-section{
+    /* indico la imagen que sera de fondo en la pagina */
+    background-image: url("../img/vicugna-pacos_f31442a8_550x807.jpg");
+    /* indico que si hay mas espacio del que ocupa la imagen, esta no se repita para rellenar ese espacio */
+    background-repeat: no-repeat;
+    /* ajusto la imagen a la dimension disponible */
+    background-size: cover;
+    /* indico que la imagen debe ir en el centro de ese espacio disponible */
+    background-position: center;
+    /* a la seccion del Hero-section le doy la dimension de 100vh para que la imagen la ocupe */
+    height: 100vh; 
+}
