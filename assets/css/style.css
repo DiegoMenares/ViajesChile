@@ -1,6 +1,6 @@
 
 .navbar{
-    background-color: brown;
+    background-color: transparent;
     position: fixed;
     width: 200vh;
     z-index: 1;
@@ -16,4 +16,13 @@
     background-position: center;
     /* a la seccion del Hero-section le doy la dimension de 100vh para que la imagen la ocupe */
     height: 100vh; 
+}
+#Footer{
+    background-color:rgb(37, 126, 126);
+    font-family: "Oswald";
+}
+
+#Footer a{
+    text-decoration: none;
+    color: white;
 }
