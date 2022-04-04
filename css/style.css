@@ -1,0 +1,24 @@
+.hr {
+    height: 2px;
+    overflow: hidden
+}
+
+.navbar{
+    background-color: transparent;
+    position: fixed;
+    width: 200vh;
+    z-index: 1;
+}
+#Footer{
+    background-color:rgb(37, 126, 126);
+    font-family: "Oswald";
+}
+
+#Footer a{
+    text-decoration: none;
+    color: white;
+}
+
+#Linea {
+    border-color: darkgrey;
+}
