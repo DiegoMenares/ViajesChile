@@ -3,22 +3,35 @@
     overflow: hidden
 }
 
-.navbar{
+.navbar {
     background-color: transparent;
     position: fixed;
     width: 100vw;
     z-index: 1;
 }
-#Footer{
-    background-color:rgb(37, 126, 126);
+
+#Footer {
+    background-color: rgb(37, 126, 126);
     font-family: "Oswald";
 }
 
-#Footer a{
+#Footer a {
     text-decoration: none;
     color: white;
 }
 
 #Linea {
     border-color: darkgrey;
+}
+
+#destacados {
+    background-color: black;
+}
+
+.card-body p {
+    font-size: 12px;
+}
+
+.card-body {
+    background-color: #4cc9f0;
 }
