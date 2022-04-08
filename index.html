@@ -5,10 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!--  CDN BOOSTRAP -->
+  <!--  CDN BOOSTRAP Currently v5.1.3 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <!-- CDN FONTAWESOME -->
+  <!-- CDN FONTAWESOME Latest Version 6 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -26,7 +26,7 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container justify-content-between">
-      <a class="navbar-brand" href="#">Viajes Chile</a>
+      <a class="navbar-brand tituloNavbar" href="#"><i class="fa-solid fa-earth-americas"></i> Viajes chile</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -50,7 +50,7 @@
       </div>
     </div>
   </nav>
-  <!-- Carrousel -->
+  <!-- SECCION CARROUSEL -->
   <header class="carrusel" id="Hero-section">
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -87,12 +87,12 @@
   <!-- SECCION QUIENES SOMOS? -->
   <section class="bg-dark d-none d-md-block py-5" id="quienesSomos">
     <div class="container">
-      <h2 class="text-center pt-5 pb-3">¿QUIÉNES SOMOS?</h2>
-      <hr class="mx-4 text-center">
-      <div class="row d-flex" data-bs-toggle="tooltip" data-bs-placement="top"
+      <h2 class="text-center py-3 text-uppercase">¿QUIÉNES SOMOS?</h2>
+      <hr class="mx-auto opacity-100 my-3">
+      <div class="row d-flex" data-bs-toggle="tooltip" data-bs-placement="left"
         title=" Haz doble click para cambiar de color">
         <div class="col col-sm-4 col-md-4">
-          <i class="fa-solid fa-plane py-1 text-center img-fluid"></i>
+          <i class="fa-solid fa-plane py-1 text-center img-fluid fa-2x"></i>
           <p class="change">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione a, odit ea veritatis
             necessitatibus quo, sunt, aperiam iure autem molestiae repellendus velit dolor amet nisi voluptatem
             consequatur neque inventore enim! Lorem ipsum
@@ -111,10 +111,10 @@
             Magni iste nesciunt,
             qui odio vel, necessitatibus quisquam rerum ea est quam natus sed cupiditate eveniet ipsa corrupti nisi
             aliquam, asperiores optio repellendus iure magnam libero quae voluptatibus. Assumenda, totam!</p>
-          <i class="fa-solid fa-mountain py-1 text-center img-fluid"></i>
+          <i class="fa-solid fa-mountain py-1 text-center img-fluid fa-2x"></i>
         </div>
         <div class="col col-sm-4 col-md-4">
-          <i class="fa-solid fa-route py-1 text-center img-fluid"></i>
+          <i class="fa-solid fa-route py-1 text-center img-fluid fa-2x"></i>
           <p class="change">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, maxime nesciunt! Quas
             corrupti doloribus eligendi, ex qui cumque doloremque debitis? Minima officiis a aliquid cumque rerum error
             vitae eius nobis. Nemo veniam, mollitia
@@ -131,10 +131,11 @@
   <!-- SECCION CARDS DESTACADAS     -->
   <section class="bg-dark py-5" id="destacados">
     <div class="container">
-      <h2 class="text-center pt-5 pb-4">DESTACADOS</h2>
-      <hr class="mx-5 text-center">
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
-        <div class="col card-group">
+      <h2 class="text-center py-3 text-uppercase">DESTACADOS</h2>
+      <hr class="mx-auto opacity-100 my-3">
+      <div class="row" data-bs-toggle="tooltip" data-bs-placement="left"
+        title=" Haz click en cualquiera de las imagenes para ocultar/mostrar el contenido">
+        <div class="col col-12 col-md-6 col-lg-3 my-4">
           <div class="card border-light">
             <img src="./img/card1.jpg" class="card-img-top desaparecer" alt="card1">
             <div class="card-body aparece-desaparece">
@@ -144,7 +145,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col col-12 col-md-6 col-lg-3 my-4">
           <div class="card border-light">
             <img src="./img/card2.jpg" class="card-img-top desaparecer" alt="card2">
             <div class="card-body aparece-desaparece">
@@ -154,7 +155,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col col-12 col-md-6 col-lg-3 my-4">
           <div class="card border-light">
             <img src="./img/card3.jpg" class="card-img-top desaparecer" alt="card3">
             <div class="card-body aparece-desaparece">
@@ -164,13 +165,13 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col col-12 col-md-6 col-lg-3 my-4">
           <div class="card border-light">
             <img src="./img/card4.jpg" class="card-img-top desaparecer" alt="card4">
             <div class="card-body aparece-desaparece">
               <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
-              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur accusamus veritatis
-                repudiandae hic molestias quo necessitatibus pariatur.</p>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus iste nisi
+                consequuntur in ex esse voluptate repudiandae nesciunt.</p>
             </div>
           </div>
         </div>
@@ -179,14 +180,14 @@
   </section>
 
   <!-- SECCION FORMULARIO -->
-  <!-- <section class="bg-dark text-white py-5 formulario" id="Contacto">
+  <section class="bg-dark text-white pb-5 formulario" id="Contacto">
     <div class="container contenedor-form">
       <div class="row">
         <div class="col col-12">
-          <h1 class="tituloContacto text-center">Contacto</h1>
+          <h2 class="tituloContacto text-center py-3 text-uppercase">Contacto</h2>
         </div>
         <div class="col col-12 mb-3 mt-3">
-          <hr class="mx-auto opacity-100 hero-line">
+          <hr class="mx-auto opacity-100 my-3">
         </div>
         <div class="col col-12">
           <form action="" class="row">
@@ -209,19 +210,7 @@
         </div>
       </div>
     </div>
-  </section> -->
-
-  <!-- SECCION FORMULARIO 2-->
-  <section class="container text-center py-5">
-    <div class="mb-5">
-      <h1 class="fw-bold text-uppercase">Contacto</h1>
-      <hr class="opacity-100 w-100 mx-auto">
-    </div>
-    <div>
-      <p>Quieres saber mas de mi?</p>
-    </div>
   </section>
-
 
   <!-- SECCION FOOTER -->
   <footer class="py-5 bg-info text-white text-center footer" id="Footer">

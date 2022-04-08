@@ -8,14 +8,23 @@ font-family: 'Montserrat', sans-serif;
 /* ELEMENTOS GENERALES */
 body {
   color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
-/* SEECION NABVAR*/
+/* SEECION NAVBAR Y CARROUSEL*/
 .navbar {
   background-color: transparent;
   position: fixed;
   width: 100vw;
   z-index: 1;
+}
+
+.tituloNavbar {
+  font-family: 'Major Mono Display', monospace;
+}
+
+.boton-carrusel {
+  width: 6%;
 }
 
 /* SECCION QUIENES SOMOS?*/
@@ -29,13 +38,14 @@ body {
   background-color: black;
 }
 
+.card-body {
+  background-color: #4cc9f0;
+}
+
 .card-body p {
   font-size: 1em;
 }
 
-.card-body {
-  background-color: #4cc9f0;
-}
 
 /* SECCION FOOTER*/
 .footer {
@@ -45,7 +55,4 @@ body {
 .footer a {
   color: white;
   text-decoration: none;
-}
-.boton-carrusel{
-  width: 6%;
 }
