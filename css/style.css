@@ -1,24 +1,48 @@
-.hr {
-    height: 2px;
-    overflow: hidden
+/* 
+Fonts Utilizadas
+font-family: 'Grape Nuts', cursive;
+font-family: 'Major Mono Display', monospace;
+font-family: 'Montserrat', sans-serif;
+*/
+
+/* ELEMENTOS GENERALES */
+body {
+  color: white;
 }
 
-.navbar{
-    background-color: transparent;
-    position: fixed;
-    width: 100vw;
-    z-index: 1;
-}
-#Footer{
-    background-color:rgb(37, 126, 126);
-    font-family: "Oswald";
+/* SEECION NABVAR*/
+.navbar {
+  background-color: transparent;
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
 }
 
-#Footer a{
-    text-decoration: none;
-    color: white;
+/* SECCION QUIENES SOMOS?*/
+#quienesSomos i {
+  background-color: #4cc9f0;
+  width: 410px;
 }
 
-#Linea {
-    border-color: darkgrey;
+/* SECCION CARDS*/
+#destacados {
+  background-color: black;
+}
+
+.card-body p {
+  font-size: 1em;
+}
+
+.card-body {
+  background-color: #4cc9f0;
+}
+
+/* SECCION FOOTER*/
+.footer {
+  font-family: "Major Mono Display", monospace;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
 }
